@@ -18,7 +18,7 @@ define('DB_NAME', 'beadando');
 // mivel pdo-t használunk, így azonosítani kell a db típusát 
 define('DB_TYPE', 'mysql');
 
-// db csatlakozáshoz szükséges függvény 
+// db csatlakozáshoz szükséges függvény
 function get_connection(){
     // mi pdo-t használunk a db kapcsolathoz
     $conn_string = DB_TYPE.':host='.DB_HOST.':'.DB_PORT.';dbname='.DB_NAME.';';
